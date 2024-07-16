@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Mehmonxonaga Ro'yxatga Olish</h1>
+        <form id="guestForm">
+            <label for="name">Ism:</label>
+            <input type="text" id="name" required>
+            
+            <label for="age">Yoshi:</label>
+            <input type="number" id="age" required>
+            
+            <label for="maritalStatus">Oilalikmi:</label>
+            <select id="maritalStatus" required>
+                <option value="yes">Ha</option>
+                <option value="no">Yo'q</option>
+            </select>
+            
+            <label for="paymentMethod">To'lov Turi:</label>
+            <select id="paymentMethod" required>
+                <option value="card">Bank Kartasi</option>
+                <option value="cash">Naqd To'lov</option>
+            </select>
+            
+            <label for="room">Xona:</label>
+            <select id="room" required>
+                <option value="1">Xona 1</option>
+                <option value="2">Xona 2</option>
+                <option value="3">Xona 3</option>
+                <option value="4">Xona 4</option>
+                <option value="5">Xona 5</option>
+                <option value="6">Xona 6</option>
+                <option value="7">Xona 7</option>
+                <option value="8">Xona 8</option>
+                <option value="9">Xona 9</option>
+                <option value="10">Xona 10</option>
+                <option value="11">Xona 11</option>
+                <option value="12">Xona 12</option>
+                <option value="13">Xona 13</option>
+                <option value="14">Xona 14</option>
+            </select>
+
+            <button type="submit">Qo'shish</button>
+        </form>
+
+        <h2>Ro'yxatdagi Mehmonlar</h2>
+        <ul id="guestList"></ul>
+    </div>
+
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
